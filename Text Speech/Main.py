@@ -1,0 +1,5 @@
+from gtts import gTTS
+ 
+ 
+tts = gTTS('Anthony Edward Stark, more commonly known as Tony Stark, is a fictional character primarily portrayed by Robert Downey Jr. in the Marvel Cinematic Universe (MCU) media franchise—based on the Marvel Comics character of the same name—commonly known by his alias, Iron Man. Stark is depicted as an industrialist, genius inventor, and playboy who is CEO of Stark Industries. Initially the chief weapons manufacturer for the U.S. military, he has a change of heart and redirects his technical knowledge into the creation of mechanized suits of armor which he uses to defend against those that would threaten peace around the world. He becomes a founding member and leader of the Avengers until his death in Avengers: Endgame (2019). He also mentored Peter Parker, choosing him as a successor.')
+tts.save('hello.mp3')
